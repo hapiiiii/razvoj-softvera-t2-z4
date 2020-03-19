@@ -1,0 +1,13 @@
+#pane1{
+-fx-background-color:#2ECC71 ;
+}
+#pane2{
+-fx-background-color:#2ECC71 ;
+}
+#slika1{
+-fx-background-image: url("/img/x-09-512.png") ;
+    -fx-background-size: 64px 64px;
+}
+#pane3{
+-fx-background-color:#5DADE2  ;
+}

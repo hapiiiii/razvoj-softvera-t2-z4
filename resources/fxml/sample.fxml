@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rs.t2.z4.Controller">
+
+    <stylesheets>
+        <URL value="@/css/stile.css" />
+    </stylesheets>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="361.0" prefWidth="443.0">
+         <children>
+            <Pane fx:id="pane1" layoutX="-1.0" prefHeight="44.0" prefWidth="443.0">
+               <children>
+                  <Button layoutX="21.0" layoutY="10.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="43.0" text="Add" />
+                  <Button layoutX="76.0" layoutY="10.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="69.0" text="Remove" />
+                  <Button layoutX="386.0" layoutY="10.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="24.0" text="?" />
+               </children>
+            </Pane>
+            <Pane fx:id="pane2" layoutX="-1.0" layoutY="44.0" prefHeight="317.0" prefWidth="111.0">
+               <children>
+                  <Label layoutX="5.0" layoutY="38.0" text="Date">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="20.0" layoutY="65.0" text="Cost" />
+                  <Label layoutX="18.0" layoutY="92.0" text="Goods" />
+                  <Label layoutX="15.0" layoutY="117.0" text="Employees" />
+                  <Label layoutX="16.0" layoutY="142.0" text="Departments" />
+               </children>
+            </Pane>
+            <Pane fx:id="pane3" layoutX="110.0" layoutY="44.0" prefHeight="317.0" prefWidth="332.0">
+               <children>
+                  <ImageView fitHeight="44.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/x-09-512.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="152.0" fitWidth="143.0" layoutX="96.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/66-512.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="22.0" layoutY="150.0" text="&gt;45 years" />
+                  <Label layoutX="149.0" layoutY="13.0" text="Employees" />
+                  <Label layoutX="247.0" layoutY="94.0" text="28-45 years" />
+                  <Label layoutX="252.0" layoutY="205.0" text="&lt;28 years" />
+               </children>
+            </Pane>
+         </children></Pane>
+   </children>
+</GridPane>
